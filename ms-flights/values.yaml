@@ -5,9 +5,9 @@
 replicaCount: 1
 
 image:
-  repository: "msupandrunning/flights"
+  repository: "november11/flights"
   pullPolicy: IfNotPresent
-  tag: "v1.0"
+  tag: "v1.2"
 
 MYSQL_HOST: rds.staging.msur-vpc.com
 MYSQL_USER: microservices
